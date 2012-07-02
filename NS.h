@@ -13,7 +13,6 @@ struct NS_namespace
   int  (*func2) ( char* );
 };
 
-static const struct NS_namespace NS = { &func1, 
-					&func2 };
+#define NS_DEF { &func1, &func2 }
 
 #endif /* __NS_H__ */
