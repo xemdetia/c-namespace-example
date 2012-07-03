@@ -5,9 +5,9 @@
 
 void dmutil_sunrise ( void )
 {
-  printf( "On Windows, %s is great!\n", name_version() );
+  printf( "On Linux, %s is great!\n", name_version() );
 }
 void dmutil_sunset  ( void )
 {
-  printf( "On Windows, the sun is setting and %s went to bed.\n", name_author() );
+  printf( "On Linux, the sun is setting and %s went to bed.\n", name_author() );
 }
