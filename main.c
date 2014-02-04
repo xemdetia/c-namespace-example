@@ -1,6 +1,8 @@
 
 #include "NS.h"
 
+static const struct NS_namespace NS = NS_DEF;
+
 int main( int argc, char **argv )
 {
 
